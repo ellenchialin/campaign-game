@@ -1,0 +1,32 @@
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+#rc-imageselect > div {
+  width: 100% !important;
+}
+
+.recaptchaContainer iframe {
+  transform: scale(0.77);
+  -webkit-transform: scale(0.77);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+}
+
+@media screen and (max-width: 600px) {
+  #rc-imageselect,
+  .g-recaptcha {
+    /* position: relative;
+    left: 50%; */
+    -o-transform: scale(0.7) translateX(-50%);
+    -ms-transform: scale(0.7) translateX(-50%);
+    -moz-transform: scale(0.7) translateX(-50%);
+    -webkit-transform: scale(0.7) translateX(-50%);
+    transform: scale(0.7) translateX(-50%);
+    -o-transform-origin: left center;
+    -ms-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+  }
+}
